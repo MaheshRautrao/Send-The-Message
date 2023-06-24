@@ -4,3 +4,71 @@
     box-sizing: border-box;
 
 }
+
+h2{
+    padding: 5px;
+}
+h4{
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+.feedback{
+   
+    width: 100%;
+    background-color: red;
+    display: none;
+    border-radius: 5px;
+}
+.message-content{
+    color: green;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(134, 77, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px ;
+     background-color: white;
+    border-radius: 10px;
+}
+form{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+form input{
+    outline: none;
+    margin: 10px;
+    border: solid 2px black;
+    padding: 5px ;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.box{
+  width: 450px;
+  height: 40px;
+  
+  
+}
+.btn{
+    cursor: pointer;
+}
+
