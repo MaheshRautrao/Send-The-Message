@@ -1,4 +1,4 @@
-const message_btn = document.querySelector(".btn");
+const message_btn = document.getElementById("submit_btn");
 
 message_btn.addEventListener("click", (e) => {
   e.preventDefault();
